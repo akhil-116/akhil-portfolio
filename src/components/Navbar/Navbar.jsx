@@ -1,4 +1,5 @@
 import React from "react";
+import Button from '../Button/Button';
 import "./Navbar.css";
 const Navbar = () => {
     return(
@@ -13,8 +14,8 @@ const Navbar = () => {
                     <li><a href="#contact">Contact</a></li>
                 </ul>
 
-                <a href="#contact" className="contact-btn">Contact Me</a>
-
+                <Button  text="Contact Me" href="#contact" type="dark"/>
+            
                 <div className="hamburger">
                     <span className="line"></span>
                     <span className="line"></span>

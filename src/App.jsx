@@ -1,15 +1,16 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Navbar from './components/Navbar/Navbar'
 import './App.css'
 
 function App() {
 
   return (
     <>
-    <h1>App</h1>
+    <Navbar />
+    <h1 style={{marginTop:"80px"}}>This is hero section</h1>
+    <h1>This is hero section</h1>
     </>
   )
 }
 
-export default App
+export default App;

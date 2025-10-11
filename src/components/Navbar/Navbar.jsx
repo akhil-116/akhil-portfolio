@@ -14,7 +14,7 @@ const Navbar = () => {
                     <li><a href="#contact">Contact</a></li>
                 </ul>
 
-                <Button  text="Contact Me" href="#contact" type="dark"/>
+                <Button  text="Contact Me" href="#contact" type="primary"/>
             
                 <div className="hamburger">
                     <span className="line"></span>

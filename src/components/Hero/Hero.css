@@ -4,11 +4,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background:linear-gradient(135deg, #007bff, #00bfff);
+    background:linear-gradient(135deg, #1a1a1a, #141414);
     color: white;
     box-sizing: border-box;
     border-radius: 16px;
     margin: 6rem 80px;
+    padding: 0rem 2rem;
 }
 
 .hero-content{
@@ -20,11 +21,12 @@
 .hero-title{
     font-size: 4.5rem;
     margin-bottom: 0.5rem;
+    letter-spacing: -1px;
 }
 
 .hero-description{
     font-size: 1.2rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 1.8rem;
     margin-top: 0.5rem;
 }
 
@@ -42,10 +44,10 @@
     }
 
     .hero-description{
-    font-size: 1.2rem;
-    margin-bottom: 0.75rem;
-    margin-top: 0.5rem;
-}
+        font-size: 1.2rem;
+        margin-bottom: 0.75rem;
+        margin-top: 0.5rem;
+    }
 }
 
 @media(max-width: 768px) {
@@ -55,27 +57,32 @@
         margin-bottom: 0.5rem;
     }
     .hero-description{
-    font-size: 1rem;
-    margin-bottom: 0.75rem;
-    margin-top: 0.5rem;
-}
+        font-size: 1rem;
+        margin-bottom: 0.75rem;
+        margin-top: 0.5rem;
+    }
     .hero-buttons{
-    display: flex;
-   align-items: flex-start;
-}
+        display: flex;
+        align-items: flex-start;
+    }
 }
 
 
-@media(max-width: 480px) {
+@media(max-width: 580px) {
 
     .hero-title{
-        font-size: 2rem;
+        font-size: 1.4rem;
         margin-bottom: 0.5rem;
     }
     .hero-description{
         font-size: 1rem;
         margin-bottom: 0.75rem;
         margin-top: 0.5rem;
+    }
+    
+    .hero-buttons{
+        flex-direction: column;
+        gap: 0.8rem;
     }
 
 }

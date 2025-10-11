@@ -4,7 +4,7 @@ const Button = ({href, type="primary",text}) => {
     return(
         <>
         <a href={href} className={`btn ${type}-btn`}>
-            {text}
+            {text} <span className='btn-arrow'>&rarr;</span>
         </a>
         </>
     );

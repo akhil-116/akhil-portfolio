@@ -1,7 +1,7 @@
 .btn{
     padding: 0.5rem 1rem;
     text-decoration: none;
-    border-radius: 6px;
+    border-radius: 48px;
     transition: background-color 0.2s ease;
     text-align: center;
     display: inline-block;
@@ -9,7 +9,7 @@
     cursor: pointer;
     white-space: nowrap;
     transition: all 0.3s ease;
-    overflow: hidden;
+    width: fit-content;
 }
 
 .primary-btn{
@@ -32,7 +32,7 @@
     background-color: #2a2a2a;
     transform: scale(1.05);
 }
-/*
+
 .btn span.btn-arrow{
     display: inline-block;
     transition: transform 0.3s ease;
@@ -41,4 +41,3 @@
 .btn:hover span.btn-arrow{
     transition: translateX(5px);
 }
-    */

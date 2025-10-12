@@ -19,3 +19,38 @@
     width: 88px;
     height: 88px;
 }
+.skill-logo skillName{
+    word-wrap:break-word;
+}
+@media(max-width: 480px) {
+
+    .skill-card{
+        width: 75px;
+    }
+    .skill-logo{
+        width: 24px;
+        height: 24px;
+    }
+    .skill-name{
+        font-size: 12px;
+    }
+}
+
+
+@media(max-width: 768px) {
+
+    .skill-card{
+        width: 100px;
+        padding: 1rem 1rem;
+    }
+
+    .skill-logo{
+        width: 48px;
+        height: 48px;
+    }
+
+    .skill-name{
+        font-size: 16px;
+    }
+
+}

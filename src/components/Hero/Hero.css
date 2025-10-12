@@ -52,8 +52,12 @@
 
 @media(max-width: 768px) {
 
+    .hero{
+        margin: 6rem 2rem;
+        min-height: 70vh;
+    }
     .hero-title{
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-bottom: 0.5rem;
     }
     .hero-description{
@@ -68,14 +72,18 @@
 }
 
 
-@media(max-width: 580px) {
+@media(max-width: 480px) {
 
+    .hero{
+        margin: 6rem 1rem;
+        min-height: 50vh;
+    }
     .hero-title{
-        font-size: 1.4rem;
+        font-size: 1rem;
         margin-bottom: 0.5rem;
     }
     .hero-description{
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin-bottom: 0.75rem;
         margin-top: 0.5rem;
     }

@@ -3,7 +3,7 @@ const SkillCard = ({skillName, skillIcon}) => {
     return(
         <div className="skill-card">
             <img src={skillIcon} alt={skillName} className="skill-logo"/>
-            <h4>{skillName}</h4>
+            <p className="skill-name">{skillName}</p>
         </div>
     );
 };

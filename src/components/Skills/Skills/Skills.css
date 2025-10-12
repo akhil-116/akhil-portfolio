@@ -1,5 +1,5 @@
 .skills-section{
-    margin: 0 80px;
+    margin: 0 70px;
     margin-bottom: 10rem;
     color: #fff;
     
@@ -19,13 +19,27 @@
 }
 
 @media(max-width: 480px) {
+    .skills-section{
+        margin: 2rem;
+    }
     .skill-title{
         font-size: 1rem;
     }
 }
 
 @media(max-width: 768px) {
+    .skills-section{
+        margin: 2rem;
+    }
     .skill-title{
         font-size: 2rem;
     }
+
+    .skill-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0rem;
+        justify-content: center;
+    }
+
 }

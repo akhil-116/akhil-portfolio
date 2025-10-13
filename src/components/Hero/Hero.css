@@ -1,6 +1,6 @@
 .hero{
 
-    min-height: 90vh;
+    min-height:50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,7 +54,11 @@
 
     .hero{
         margin: 6rem 2rem;
-        min-height: 70vh;
+        min-height: 50vh;
+        
+    }
+    .hero-content{
+        padding: 0rem;
     }
     .hero-title{
         font-size: 2rem;
@@ -76,7 +80,10 @@
 
     .hero{
         margin: 6rem 1rem;
-        min-height: 50vh;
+        min-height: 40vh;
+    }
+    .hero-content{
+        padding: 0rem;
     }
     .hero-title{
         font-size: 1rem;
@@ -89,7 +96,8 @@
     }
     
     .hero-buttons{
-        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
         gap: 0.8rem;
     }
 

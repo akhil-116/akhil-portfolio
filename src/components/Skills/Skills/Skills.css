@@ -1,5 +1,5 @@
 .skills-section{
-    margin: 0 70px;
+    margin: 0 80px;
     margin-bottom: 10rem;
     color: #fff;
     
@@ -20,7 +20,7 @@
 
 @media(max-width: 480px) {
     .skills-section{
-        margin: 2rem;
+        margin: 1rem;
     }
     .skill-title{
         font-size: 1rem;

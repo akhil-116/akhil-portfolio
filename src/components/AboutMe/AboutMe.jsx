@@ -1,5 +1,5 @@
 import "./AboutMe.css"
-import Myphoto from "../../assets/aboutme.jpg"
+import Myphoto from "../../assets/about-me.jpg"
 import Button from "../Button/Button";
 
 const AboutMe = () => {

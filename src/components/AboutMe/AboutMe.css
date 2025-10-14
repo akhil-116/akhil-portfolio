@@ -107,5 +107,9 @@
         text-align: left;
         font-size: 0.8rem;
     }
+    .aboutme-left img{
+        border-radius: 12px;
+        object-fit:cover;
+    }
 
 }

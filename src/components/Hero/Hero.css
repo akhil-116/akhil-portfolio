@@ -54,7 +54,7 @@
 
     .hero{
         margin: 6rem 2rem;
-        min-height: 60vh;
+        min-height: 70vh;
         
     }
     .hero-content{
@@ -80,17 +80,17 @@
 
     .hero{
         margin: 6rem 1rem;
-        min-height: 40vh;
+        min-height: 50vh;
     }
     .hero-content{
         padding: 0rem;
     }
     .hero-title{
-        font-size: 1rem;
+        font-size: 2rem;
         margin-bottom: 0.5rem;
     }
     .hero-description{
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin-bottom: 0.75rem;
         margin-top: 0.5rem;
     }

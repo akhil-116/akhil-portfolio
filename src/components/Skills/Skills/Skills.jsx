@@ -14,7 +14,7 @@ import SkillCard  from "../SkillCard/SkillCard";
 import "./Skills.css";
 
 const skillsData= [
-    {skillName:"figma", skillIcon:figmaIcon},
+    {skillName:"Figma", skillIcon:figmaIcon},
     {skillName:"HTML5", skillIcon:htmlIcon},
     {skillName:"JavaScript", skillIcon:javascriptIcon},
     {skillName:"React", skillIcon:reactIcon},

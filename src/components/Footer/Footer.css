@@ -82,6 +82,7 @@
     .footer{
         margin: 6rem 2rem;
         margin-bottom: 1rem;
+            background:linear-gradient(135deg, #242424, #1b1b1b);
     }
     .footer-text{
         font-size: 2rem;
@@ -91,9 +92,10 @@
 @media(max-width: 480px) {
     .footer{
         margin: 4rem 1rem;
+            background:linear-gradient(135deg, #242424, #1b1b1b);
         margin-bottom: 1rem;
     }
     .footer-text{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 }

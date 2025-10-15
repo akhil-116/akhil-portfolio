@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background:linear-gradient(135deg, #1a1a1a, #141414);
+    background:linear-gradient(135deg, #242424, #1b1b1b);
     color: white;
     box-sizing: border-box;
     border-radius: 16px;
@@ -55,6 +55,7 @@
     .hero{
         margin: 6rem 2rem;
         min-height: 70vh;
+            background:linear-gradient(135deg, #242424, #1b1b1b);
         
     }
     .hero-content{
@@ -82,6 +83,7 @@
         margin: 6rem 1rem;
         margin-bottom: 4rem;
         min-height: 70vh;
+            background:linear-gradient(135deg, #242424, #1b1b1b);
     }
     .hero-content{
         padding: 0rem;

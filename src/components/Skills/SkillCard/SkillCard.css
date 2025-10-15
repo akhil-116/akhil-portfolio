@@ -27,6 +27,7 @@
     .skill-card{
         width: 75px;
         padding: 0rem;
+            background:linear-gradient(135deg, #242424, #1b1b1b);
     }
     .skill-logo{
         width: 24px;
@@ -43,6 +44,7 @@
     .skill-card{
         width: 100px;
         padding: 1rem 1rem;
+            background:linear-gradient(135deg, #242424, #1b1b1b);
     }
 
     .skill-logo{

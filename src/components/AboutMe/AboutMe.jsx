@@ -21,7 +21,7 @@ skills, focused on delivering user-centric solutions and enhancing technical exp
 skills, focused on delivering user-centric solutions and enhancing technical expertise. I enjoy learning new technologies and turning ideas into real projects.
                 
                     </p>
-                    <Button type="secondary" text="More About Me"/>
+                    <Button type="primary" text="More About Me"/>
                 </div>
 
             

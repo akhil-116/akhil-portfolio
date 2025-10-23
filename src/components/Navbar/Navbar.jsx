@@ -19,13 +19,17 @@ const Navbar = () => {
                 <h1 className="nav-logo">Akhil Dasari</h1>
 
                 <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-                    <li><a href="/" className="active" onClick={closeMenu}>Home</a></li>
+                    <li><a href="#home" className="active" onClick={closeMenu}>Home</a></li>
                     <li><a href="#about" onClick={closeMenu}>About</a></li>
                     <li><a href="#projects" onClick={closeMenu}>Projects</a></li>
                     <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
+                    <li className="mobile-btn"> <Button onClick={closeMenu} text="Contact Me" href="#contact" type="primary" /></li>
                 </ul>
 
-                <Button  text="Contact Me" href="#contact" type="primary"/>
+                <div className="desktop-btn">
+                    <Button  text="Contact Me" href="#contact" type="primary"/>
+                </div>
+                
             
                 <div className={`hamburger ${isOpen ? "active" : ""}`} onClick={toggleMenu}>
                     <span className="line"></span>

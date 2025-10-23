@@ -71,6 +71,9 @@
     transform: rotate(-45deg) translate(6px,-5px);
 }
 
+.mobile-btn{
+    display: none;
+}
 
 @media(max-width: 768px) {
     .nav-links{
@@ -96,7 +99,10 @@
         display: flex;
     }
 
-    .navbar .btn{
+    .mobile-btn{
+    display:block;
+}
+    .desktop-btn{
         display: none;
     }
 }

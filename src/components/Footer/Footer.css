@@ -54,7 +54,7 @@
     opacity: 0.9;
 }
 .img-container h3{
-    opacity: 0.7;
+    opacity: 1;
 }
 .get-in-touch{
     display: flex;
@@ -65,7 +65,7 @@
     opacity: 0.9;
 }
 .get-in-touch h3{
-    opacity: 0.7;
+    opacity: 1;
 }
 .img-container img{
     width: 24px;
@@ -80,8 +80,9 @@
 
 @media(max-width: 768px) {
     .footer{
-        margin: 6rem 2rem;
-        margin-bottom: 1rem;
+        margin: 6rem 0rem;
+        border-radius: 0px;
+        margin-bottom: 0rem;
             background:linear-gradient(135deg, #242424, #1b1b1b);
     }
     .footer-text{
@@ -91,9 +92,10 @@
 
 @media(max-width: 480px) {
     .footer{
-        margin: 4rem 1rem;
+        margin: 4rem 0rem;
             background:linear-gradient(135deg, #242424, #1b1b1b);
-        margin-bottom: 1rem;
+         border-radius: 0px;
+        margin-bottom: 0rem;
     }
     .footer-text{
         font-size: 1.6rem;

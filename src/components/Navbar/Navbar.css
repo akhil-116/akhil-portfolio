@@ -32,7 +32,15 @@
     display: flex;
     list-style: none;
     gap: 2rem;
+    
 
+}
+
+.nav-link {
+  cursor: pointer;        /* show hand cursor */
+  color: #000;            /* default text color */
+  text-decoration: none;  /* remove underline if needed */
+  transition: color 0.3s;
 }
 
 .nav-links li a{

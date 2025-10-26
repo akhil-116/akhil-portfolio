@@ -5,7 +5,7 @@ import linkedin from "../../assets/icons/linkedin.svg";
 import Button from "../Button/Button"
 const Footer = () =>{
     return(
-        <footer className='footer'>
+        <footer className='footer' id="contact">
             <div className='footer-container'>
                 
                 <div className='footer-tb'>

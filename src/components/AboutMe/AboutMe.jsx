@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 
 const AboutMe = () => {
     return(
-        <section className="aboutme-section">
+        <section className="aboutme-section" id="about">
 
             <div className="aboutme-left">
     

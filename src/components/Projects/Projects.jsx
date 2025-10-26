@@ -7,8 +7,8 @@ const Projects = () => {
 
         <>
 
-        <p className="title">Projects</p>
-        <section className="projects-section">
+        <p className="title" id="projects">Projects</p>
+        <section className="projects-section" >
 
             <div className="left-content">
                 <p className="project-title">OneStory (UX Case Study)</p>

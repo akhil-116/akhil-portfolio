@@ -5,6 +5,8 @@ import Skills from './components/Skills/Skills/Skills'
 import AboutMe from './components/AboutMe/AboutMe'
 import Footer from './components/Footer/Footer'
 import Projects from './components/Projects/Projects'
+import { Routes, Route } from 'react-router-dom'
+
 function App() {
 
   return (

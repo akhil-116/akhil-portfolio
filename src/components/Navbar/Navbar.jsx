@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Button from '../Button/Button';
 import "./Navbar.css";
+import { Link as ScrollLink } from "react-scroll";
 const Navbar = () => {
 
      const [isOpen, setIsOpen] = useState(false);
@@ -19,15 +20,24 @@ const Navbar = () => {
                 <h1 className="nav-logo">Akhil Dasari</h1>
 
                 <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-                    <li><a href="#home" className="active" onClick={closeMenu}>Home</a></li>
-                    <li><a href="#about" onClick={closeMenu}>About</a></li>
-                    <li><a href="#projects" onClick={closeMenu}>Projects</a></li>
-                    <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
-                    <li className="mobile-btn"> <Button onClick={closeMenu} text="Contact Me" href="#contact" type="primary" /></li>
+                    <li>  <ScrollLink to="home" smooth={true} duration={300} onClick={closeMenu} className="nav-link">Home</ScrollLink></li>
+                    <li><ScrollLink to="skills" smooth={true} duration={300} onClick={closeMenu} className="nav-link">Skills</ScrollLink></li>
+                    
+                    <li><ScrollLink to="about" smooth={true} duration={300} onClick={closeMenu} className="nav-link">About</ScrollLink></li>
+
+                    <li><ScrollLink to="projects" smooth={true} duration={300} onClick={closeMenu} className="nav-link">Projects</ScrollLink></li>
+
+                    <li className="mobile-btn">
+                        <ScrollLink to="contact" smooth={true} duration={500} onClick={closeMenu}>
+                            <Button text="Contact Me" type="primary" />
+                        </ScrollLink>
+                    </li>
                 </ul>
 
                 <div className="desktop-btn">
-                    <Button  text="Contact Me" href="#contact" type="primary"/>
+                    <ScrollLink to="contact" smooth={true} duration={300} onClick={closeMenu} className="nav-link">
+                            <Button text="Contact Me" type="primary" />
+                        </ScrollLink>
                 </div>
                 
             

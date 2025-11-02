@@ -40,9 +40,9 @@ const Footer = () =>{
                     </div>
 
                 </div>
-
+                <p className='footer-copyright'>©2025 Developed by Akhil Dasari. All rights reserved</p>
             </div>
-            <p className='footer-copyright'>©2025 Developed by Akhil Dasari. All rights reserved</p>
+            
         </footer>
     );
 }

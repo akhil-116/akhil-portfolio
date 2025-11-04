@@ -6,7 +6,7 @@
     justify-content: center;
     background: radial-gradient(at 25% 30%, #1a1a1a, transparent 60%),
             radial-gradient(at 75% 70%, #0d0d0d, transparent 60%),
-            #000000;        
+            #181818;        
     color: white;
     box-sizing: border-box;
     border-radius: 16px;
@@ -59,7 +59,7 @@
         min-height: 70vh;
         background: radial-gradient(at 25% 30%, #1a1a1a, transparent 60%),
             radial-gradient(at 75% 70%, #0d0d0d, transparent 60%),
-            #000000;
+            #181818; 
         
     }
     .hero-content{
@@ -89,7 +89,7 @@
         min-height: 70vh;
         background: radial-gradient(at 25% 30%, #1a1a1a, transparent 60%),
             radial-gradient(at 75% 70%, #0d0d0d, transparent 60%),
-            #000000;
+            #181818; 
     }
     .hero-content{
         padding: 0rem;
@@ -106,12 +106,10 @@
     
     .hero-buttons{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 0.8rem;
         
     }
-    .btn{
-        width: 100%;
-    }
+    
 
 }
